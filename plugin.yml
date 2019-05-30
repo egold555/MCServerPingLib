@@ -1,0 +1,6 @@
+name: ping
+main: org.golde.bukkit.pingtest.Main
+version: 1.0
+author: Eric Golde
+description:
+website: http://eric.golde.org/
