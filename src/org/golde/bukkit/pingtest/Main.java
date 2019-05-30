@@ -53,9 +53,6 @@ public class Main extends JavaPlugin implements Listener{
 				b.add("  Players: " + server1.getResponse().getPlayers().getOnline() + "/" + server1.getResponse().getPlayers().getMax());
 				b.add("  Ver: " + server1.getResponse().getVersion().getName() + " | " + server1.getResponse().getVersion().getProtocol());
 				b.add("  WL: " + server1.getResponse().isWhitelisted());
-				byte[] bts = server1.getResponse().getVersion().getProtocol().getBytes();
-				
-				System.out.println(bts[0] + " " + bts[1]);
 			}
 		}
 
